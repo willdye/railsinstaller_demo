@@ -13,3 +13,6 @@
 # Ignore all logfiles and tempfiles.
 /log/*.log
 /tmp
+
+# Ignore stack dumps from xemacs on Windows.
+xemacs-[0-9.].exe.stackdump
